@@ -1,0 +1,74 @@
+a {
+  &.default-button {
+    color: #fff;
+    font-size: 18px;
+    font-family: "Rubik", sans-serif;
+    text-transform: uppercase;
+    padding: 11px 38px;
+    background: #2ecc71;
+    font-weight: 400;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    border-radius: 2px;
+    transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0 0 25px rgba(0, 0, 0, 0.3);
+    -moz-box-shadow: 0 0 25px rgba(0, 0, 0, 0.3);
+    -o-box-shadow: 0 0 25px rgba(0, 0, 0, 0.3);
+    &:hover {
+      background: #5649c0;
+    }
+  }
+  &.button-one {
+    color: #000;
+    font-size: 12px;
+    font-family: "Rubik", sans-serif;
+    text-transform: uppercase;
+    padding: 12px 45px;
+    background: #2ecc71;
+    font-weight: 500;
+    -webkit-border-radius: 24px;
+    -moz-border-radius: 24px;
+    -ms-border-radius: 24px;
+    border-radius: 24px;
+    transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    margin: 0;
+    &:hover {
+      color: #fff;
+      background: #4b77be;
+    }
+  }
+  &.button-two {
+    color: #3a539b;
+    font-size: 13px;
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+    padding: 13px 20px 10px;
+    text-transform: uppercase;
+    border: 2px solid #3a539b;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    border-radius: 25px;
+    &:hover {
+      background: #3a539b;
+      color: #fff;
+    }
+  }
+}
+.center-button {
+  text-align: center;
+}
+
+button.mfp-close,
+button.mfp-arrow,
+a.zoom {
+  outline: none;
+}
